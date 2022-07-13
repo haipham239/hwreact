@@ -1,0 +1,12 @@
+#header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  .ant-menu {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    @include translate(-50%, 0);
+  }
+}

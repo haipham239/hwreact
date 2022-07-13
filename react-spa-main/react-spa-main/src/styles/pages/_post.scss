@@ -1,0 +1,26 @@
+#post-page {
+  ul {
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
+  .eye-icon svg {
+    width: 20px;
+  }
+  .trash-icon svg {
+    width: 16px;
+  }
+
+  .search-input {
+    max-width: 50%;
+    margin: 0 25% 30px;
+  }
+}
+
+#post-detail-page {
+  .ant-badge {
+    margin-right: 10px;
+  }
+}

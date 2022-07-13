@@ -1,0 +1,36 @@
+body {
+  font-family: $font-family !important;
+  font-size: $font-size !important;
+  line-height: $line-height !important;
+  color: $body-color !important;
+  background-color: $body-bg !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+main {
+  @include calc(min-height, '100vh - 64px');
+  background: white;
+  padding-top: 64px;
+}
+
+.page-content {
+  background: white;
+  padding: 50px;
+}
+
+.page-header {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.page-loading {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.page-icon {
+  cursor: pointer;
+}
